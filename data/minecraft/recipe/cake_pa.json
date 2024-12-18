@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    [
+      "minecraft:wheat"
+    ],
+    [
+      "minecraft:sugar"
+    ],
+    [
+      "minecraft:powder_snow_bucket"
+    ],
+    [
+      "minecraft:rabbit_spawn_egg"
+    ]
+  ],
+  "result": {
+    "id": "minecraft:cake"
+  }
+}

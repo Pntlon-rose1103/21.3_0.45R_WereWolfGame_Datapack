@@ -1,0 +1,29 @@
+{
+    "type": "generic",
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:player_head",
+            "functions": [
+              {
+                "function": "minecraft:fill_player_head",
+                "entity": "this"
+              },
+		{
+                "function": "minecraft:set_name",
+                "name": [
+                  ["",{"text":"----0","color":"aqua","bold":true,"italic":false}]
+                ]
+              },{
+                "function": "minecraft:set_components",
+                "components":{"minecraft:custom_data":{"wolf":"1b"}}
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }

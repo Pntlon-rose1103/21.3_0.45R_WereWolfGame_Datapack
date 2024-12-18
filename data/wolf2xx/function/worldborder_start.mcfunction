@@ -1,0 +1,2 @@
+$execute if score 21._.GM 21_c matches $(time) run tellraw @a ["",{"text":"\u30dc\u30fc\u30c0\u30fc","color":"dark_red"},{"text":"\u53ce\u7e2e\u958b\u59cb\uff01\uff01\uff01","color":"red"}]
+$execute if score 21._.GM 21_c matches $(time) run worldborder set $(size) $(ltime)

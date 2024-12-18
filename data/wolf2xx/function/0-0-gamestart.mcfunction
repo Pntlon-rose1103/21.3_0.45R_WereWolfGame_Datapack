@@ -1,0 +1,1 @@
+scoreboard players set 21._.GM 21_info 9
